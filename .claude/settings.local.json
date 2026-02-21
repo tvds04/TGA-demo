@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\tomvo\\\\Desktop\\\\CoMiS\\\\8 Hours Case\\\\demo\" && npm install 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\tomvo\\\\Desktop\\\\CoMiS\\\\8 Hours Case\\\\demo\" && npm run build 2>&1)"
+    ]
+  }
+}

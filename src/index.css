@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4A6228;
+}
+
+/* Thin scrollbar inside phone frame */
+.phone-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+.phone-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.phone-scroll::-webkit-scrollbar-thumb {
+  background: #8FAE6B;
+  border-radius: 2px;
+}
+.phone-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #8FAE6B transparent;
+}
